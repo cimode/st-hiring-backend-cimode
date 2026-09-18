@@ -10,6 +10,7 @@
     },
     "scripts": {
         "start": "yarn nodemon src/index.ts",
+        "typecheck": "tsc --noEmit",
         "test": "jest",
         "lint": "eslint .",
         "migrations:make": "yarn knex migrate:make --migrations-directory src/database/migrations ",
